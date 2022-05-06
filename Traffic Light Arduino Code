@@ -1,0 +1,22 @@
+int redLed = 2; // setting the value of redLed as 2.
+int blueLed = 3; // setting the value of blueLed as 3.
+int greenLed = 4;// setting the value of greenLed as 4.
+
+void setup() {
+  // put your setup code here, to run once:
+pinMode (redLed,OUTPUT);// Defined redLed as output.
+pinMode (blueLed,OUTPUT);// Defined blueLed as output.
+pinMode (greenLed,OUTPUT);// Defined greenLed as output.
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+digitalWrite (redLed,HIGH);// Sending a signal to Pin redLed to Light Up.
+delay (3000);// Giving a Gap of 3000 Milliseconds, 1 second =  1000 milliseconds.
+digitalWrite (redLed,LOW);
+digitalWrite (blueLed,HIGH);
+delay(1000);
+digitalWrite(blueLed,LOW);
+digitalWrite(greenLed,HIGH);
+delay(3000);
+digitalWrite(greenLed,LOW);
