@@ -1,0 +1,179 @@
+/*
+ * Donald Lafferty
+ * Pascack Valley HS
+ * Period 4
+ * April 7, 2022
+ * Inital Code: Row Row Row Your Boat
+ */
+
+
+
+void setup() 
+{
+  
+  tone (12,262);    //Connects to port 12 on Arduino, and plays C4 at 262 HZ
+  delay (900);      // 900 Milliseconds delay
+  noTone (12);       // Stop Note at port 12 on Arduino
+
+  delay(50);
+  
+  tone (12,262);    //Connects to port 12 on Arduino, and plays C4 at 262 HZ
+  delay (900);      // 900 Milliseconds delay
+  noTone (12);       // Stop Note at port 12 on Arduino
+
+    delay(50);
+    
+  tone (12,262);    //Connects to port 12 on Arduino, and plays C4 at 262 HZ
+  delay (900);      // 900 Milliseconds delay
+  noTone (12);       // Stop Note at port 12 on Arduino
+
+  delay(50);
+  
+   tone(12, 294);     //play or start D4 note with frequency of 294 through port 12
+  delay(300);         //play or hold note for 3/10ths of a second or 300ms
+  noTone(12);        //stop or end the note through port 12 on Arduino
+
+  delay(50);
+  
+  tone(12, 330);    //play or start E4 note with frequency of 330 through port 12
+  delay(900);        //play or hold note for 9/10ths of a second or 900ms
+  noTone(12);       //stop or end the note through port 12 on Arduino
+
+  delay(50);
+  
+  tone(12, 330);    //play or start E4 note with frequency of 330 through port 12
+  delay(600);        //play or hold note for 6/10ths of a second or 600ms
+  noTone(12);       //stop or end the note through port 12 on Arduino
+
+  delay(50);
+  
+  tone(12, 294);    //play or start D4 note with frequency of 294 through port 12
+  delay(300);        //play or hold note for 3/10ths of a second or 300ms
+  noTone(12);       //stop or end the note through port 12 on Arduino
+
+  delay(50);
+  
+  tone(12, 330);    //play or start E4 note with frequency of 330 through port 12
+  delay(600);        //play or hold note for 6/10ths of a second or 600ms
+  noTone(12);       //stop or end the note through port 12 on Arduino
+
+  delay(50);
+  
+  tone(12, 349);   //play or start F4 note with frequency of 349 through port 12
+  delay(300);       //play or hold note for 3/10ths of a second or 300ms
+  noTone(12);     //stop or end the note through port 12 on Arduino
+
+   delay(50);
+   
+  tone(12, 392);   //play or start G4 note with frequency of 392 through port 12
+  delay(1600);     //play or hold note for 1.8 second or 1800ms
+  noTone(12);      //stop or end the note through port 12 on Arduino
+
+  delay(50);
+  
+  tone(12, 523);
+  delay(300);
+  noTone(12);
+
+  delay(50);
+  
+  tone(12, 523);
+  delay(300);
+  noTone(12);
+
+    delay(50);
+  
+  tone(12, 523);
+  delay(300);
+  noTone(12);
+
+  delay(50);
+  
+  tone(12,392);
+  delay(300);
+  noTone(12);
+
+  delay(50);
+  
+  tone(12,392);
+  delay(300);
+  noTone(12);
+
+  delay(50);
+  
+  tone(12,392);
+  delay(300);
+  noTone(12);
+
+  delay(50);
+  
+  tone(12,330);
+  delay(300);
+  noTone(12);
+
+  delay(50);
+  
+  tone(12,330);
+  delay(300);
+  noTone(12);
+
+  delay(50);
+  
+  tone(12,330);
+  delay(300);
+  noTone(12);
+
+  delay(50);
+  
+  tone(12,262);
+  delay(300);
+  noTone(12);
+
+  delay(50);
+  
+  tone(12,262);
+  delay(300);
+  noTone(12);
+
+  delay(50);
+  
+  tone(12, 262);
+  delay(300);
+  noTone(12);
+
+  delay(50);
+  
+  tone(12,392);
+  delay(600);
+  noTone(12);
+
+  delay(50);
+  
+  tone(12,349);
+  delay(300);
+  noTone(12);
+
+  delay(50);
+  
+  tone(12,330);
+  delay(600);
+  noTone(12);
+
+  delay(50);
+  
+  tone(12,294);
+  delay(300);
+  noTone(12);
+  
+  delay(50);
+  
+  tone(12,262);
+  delay(1800);
+  noTone(12);
+}
+
+void loop() 
+{
+ 
+
+}
